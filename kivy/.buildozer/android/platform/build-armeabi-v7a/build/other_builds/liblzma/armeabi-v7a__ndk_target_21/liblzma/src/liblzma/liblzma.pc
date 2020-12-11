@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/home/soeren/Documents/Bounceanalyzer/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/liblzma/armeabi-v7a__ndk_target_21/liblzma/install
+exec_prefix=/home/soeren/Documents/Bounceanalyzer/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/liblzma/armeabi-v7a__ndk_target_21/liblzma/install
+libdir=/home/soeren/Documents/Bounceanalyzer/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/liblzma/armeabi-v7a__ndk_target_21/liblzma/install/lib
+includedir=/home/soeren/Documents/Bounceanalyzer/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/liblzma/armeabi-v7a__ndk_target_21/liblzma/install/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.4
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private:  
